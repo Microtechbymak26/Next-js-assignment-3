@@ -3,10 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <section className='container  px-6 p-10 bg-[#B9E5E8]'>
+    <section className='px-6 p-10 bg-[#B9E5E8] flex justify-between items-center flex-col'>
         <h2 className='text-4xl font-bold text-center text-black-800 mb-8'>
             About Us
-        </h2>
+        </h2>  
         <p className='text-black-600 mb-8'>
             This is a simple web application built using Next.js and Tailwind CSS. It demonstrates the capabilities of Next.js for server-side rendering and static site generation, as well as the use of Tailwind CSS for styling.
         </p>
